@@ -43,7 +43,7 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto sm:p-8">
+    <main class="container mx-auto">
         <!--feature section -->
         <section class=" mt-20">
             <div class="text-center">
@@ -123,10 +123,12 @@
             </div>
         </section>
         <!-- Meet Our Super Clients -->
-        <section class="bg-gradient-to-r from-[#FF8938] to-[#F00] bg-opacity-100 flex flex-col lg:flex-row justify-center items-center py-20 gap-44 rounded-xl">
+        <section
+            class="bg-gradient-to-r from-[#FF8938] to-[#F00] bg-opacity-100 flex flex-col lg:flex-row items-center justify-evenly gap-44 rounded-xl">
             <div class="text-white px-10">
                 <h2 class="text-5xl font-bold my-10">Meet Our Super <br> Clients</h2>
-                <p class="lg:w-[440px]">There are many variations of passages of Lorem Ipsum available, but the majority
+                <p class="lg:w-[440px] space-y-9">There are many variations of passages of Lorem Ipsum available, but
+                    the majority
                     have
                     suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -134,7 +136,7 @@
                 <button class="my-5 btn btn-success bg-white  border-0 px-12 text-xl">Show All</button>
             </div>
             <!-- client -->
-            <div class="relative">
+            <div class="relative m-20">
                 <!-- Previous -->
                 <div class="bg-white lg:w-[376.026px] lg:h-[269.054px] rounded-lg relative opacity-40 z-10">
                     <img class="absolute -left-8 -top-4 bg-white rounded-full border-4" src="images/client.png" alt="">
@@ -150,7 +152,7 @@
                     </div>
                 </div>
                 <!-- Current -->
-                <div class="bg-white lg:w-[426.026px] lg:h-[269.054px] absolute  top-44 -left-20 rounded-lg z-30 -mx-8">
+                <div class="bg-white lg:w-[426.026px] absolute  top-44 lg:-left-20 rounded-lg z-30 -mx-8">
                     <img class="absolute -left-8 -top-4 bg-white rounded-full border-4" src="images/client.png" alt="">
                     <div class="p-4">
                         <p class="py-10">We are providing the best and suitable home insurance services for the people
@@ -179,7 +181,101 @@
                 </div>
             </div>
         </section>
+        <!-- News & Events -->
+        <section class="my-20">
+            <h2 class="text-center text-5xl font-extrabold">News & Events</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, <br> by injected humour, or randomised words which don't look even
+                slightly believable. </p>
+            <div class="mt-10 flex flex-col lg:flex-row justify-center items-center gap-6">
+                <!-- news one -->
+                <div class="card bg-base-100 w-96 border-2 border-[#D2D2D2]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/news-1.png" alt="tea" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-[#777]">Feb 05, 2027</p>
+                        <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="font-bold">Learn More</p>
+                    </div>
+                </div>
+                <!-- news two -->
+                <div class="card bg-base-100 w-96 border-2 border-[#D2D2D2]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/news-1.png" alt="tea" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-[#777]">Feb 05, 2027</p>
+                        <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="font-bold">Learn More</p>
+                    </div>
+                </div>
+                <!-- news three -->
+                <div class="card bg-base-100 w-96 border-2 border-[#D2D2D2]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/news-1.png" alt="tea" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-[#777]">Feb 05, 2027</p>
+                        <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="font-bold">Learn More</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- footer -->
+    <footer class="bg-gradient-to-r from-[#ff634780] to-[#ff89381a] bg-opacity-85">
+        <div class="flex flex-col lg:flex-row md:flex-row justify-around items-center p-10">
+            <div class="lg:-mx-96">
+                <img src="images/cup.png" alt="">
+            </div>
+            <div class="flex flex-col lg:flex-row md:flex-row items-center gap-4">
+                <p>Ready to get strated?</p>
+                <button class="btn text-white btn-neutral border-0 bg-gradient-to-r from-[#FF8938] to-[#F00]">Get Started</button>
+            </div>
+        </div>
+        <div class="footer text-base-content p-10 justify-items-center">
+            <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="bg-transparent border-b-2 border-gray-300 outline-none" />
+                        <button class="btn btn-primary text-white border-0 rounded-full mx-3 bg-gradient-to-r from-[#FF8938] to-[#F00]"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="text-center">
+            <p>Copyright © TEA HOUSE 2024 - All right reserved by <a class="decorarion-none" href="https://github.com/rokib-cloud/tea-house-with-daisy-ui">rokib-cloud</a></p>
+     </div>
+    </footer>
 </body>
 
 </html>
